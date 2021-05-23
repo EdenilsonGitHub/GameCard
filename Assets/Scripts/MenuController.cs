@@ -4,15 +4,32 @@ using UnityEngine;
 
 public class MenuController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject generalMenu;
+    public GameObject optionsMenu;
+
     void Start()
     {
-        
+        ActiveMenu (generalMenu);
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
     }
+
+    private void HideMenus() {
+        generalMenu.SetActive(false);
+        optionsMenu.SetActive(false);
+    }
+
+    public void ActiveMenu(GameObject menu){
+        HideMenus ();
+        menu.SetActive (true);
+    }
+
+    public void ExitGame(){
+        ApplicationControler.ExitGame ();
+    }
+
 }
