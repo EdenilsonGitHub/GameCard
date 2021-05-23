@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -546,7 +546,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Som ambiente
+  m_Text: Som Ambiente
 --- !u!222 &484577123
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1078,7 +1078,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1534,6 +1534,7 @@ GameObject:
   - component: {fileID: 860061577}
   - component: {fileID: 860061579}
   - component: {fileID: 860061578}
+  - component: {fileID: 860061580}
   m_Layer: 5
   m_Name: OptionMenu
   m_TagString: Untagged
@@ -1603,6 +1604,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860061576}
   m_CullTransparentMesh: 0
+--- !u!114 &860061580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860061576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91054cf003dae63429217acca5f57e7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleSoundSFX: {fileID: 671152261}
+  toggleSoundMusic: {fileID: 1573354969}
+  sliderVolumeSFX: {fileID: 227789899}
+  sliderVolumeMusic: {fileID: 674820311}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
