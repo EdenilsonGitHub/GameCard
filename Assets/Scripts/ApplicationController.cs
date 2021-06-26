@@ -20,7 +20,22 @@ public class ApplicationControler : MonoBehaviour
         Application.Quit ();
     }
 
-        //Sound Configurations//
+    public static bool isFirstTime(){
+        if (PlayerPrefs.GetString ("FirstTime") != "fakeStone")
+            return true;
+
+        return false;
+    }
+
+    public static void SetDefaultConfigs(){
+        PlayerPrefs.SetString ("FirstTime", "fakeStone");
+        EnableSoundSFX ();
+        EnableSoundMusic ();
+        SetVolumeMusic (1);
+        SetVolumeSFX (1);
+    }
+    
+    //Sound Configurations//
     //SFX//
     public static void EnableSoundSFX(){
         PlayerPrefs.SetInt ("SFXSound", 1);
