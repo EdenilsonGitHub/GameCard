@@ -121,6 +121,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!23 &2870107 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -8899997562835386275, guid: a48554f89bf6c834d88eadfc2daacaa7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1550098476}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8036604
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,6 +795,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: board
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c625e3d623516c84fbb25cbb6e398c11,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c625e3d623516c84fbb25cbb6e398c11, type: 3}
@@ -1765,8 +1776,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   totalLife: 5
   totalManaRequest: 2
+  nameCard: "Spice (Rei dos an\xF5es)"
+  descriptionCard: Boost de dano conforme os rounds progridem
+  imgCard: {fileID: 2800000, guid: 6718e90632dda4849bacf7cc120cf5ad, type: 3}
   textLife: {fileID: 1879512828}
   textMana: {fileID: 1296929722}
+  textNameCard: {fileID: 532178142}
+  textDescriptionCard: {fileID: 1435034465}
+  renderImgCard: {fileID: 2870107}
   attackPower: 10
   textAttack: {fileID: 962422865}
 --- !u!1 &1196873534
