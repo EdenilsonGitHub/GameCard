@@ -21,14 +21,14 @@ public class ApplicationControler : MonoBehaviour
     }
 
     public static bool isFirstTime(){
-        if (PlayerPrefs.GetString ("FirstTime") != "fakeStone")
+        if (PlayerPrefs.GetString ("FirstTime") != "cardGame")
             return true;
 
         return false;
     }
 
     public static void SetDefaultConfigs(){
-        PlayerPrefs.SetString ("FirstTime", "fakeStone");
+        PlayerPrefs.SetString ("FirstTime", "cardGame");
         EnableSoundSFX ();
         EnableSoundMusic ();
         SetVolumeMusic (1);
