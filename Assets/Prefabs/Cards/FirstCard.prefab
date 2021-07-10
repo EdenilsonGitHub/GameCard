@@ -625,18 +625,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd373f289ce3af442a65598f6b5578c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalLife: 5
   totalManaRequest: 2
   nameCard: "Spice (Rei dos an\xF5es)"
   descriptionCard: Boost de dano conforme os rounds progridem
   imgCard: {fileID: 2800000, guid: 6718e90632dda4849bacf7cc120cf5ad, type: 3}
-  textLife: {fileID: 3659889503174954858}
   textMana: {fileID: 3659889502281140780}
   textNameCard: {fileID: 3659889503651495240}
   textDescriptionCard: {fileID: 3659889502679431927}
   renderImgCard: {fileID: 3942427869746428391}
   attackPower: 10
   textAttack: {fileID: 3659889504094187975}
+  textLife: {fileID: 3659889503174954858}
 --- !u!1 &8406501431788757873
 GameObject:
   m_ObjectHideFlags: 0
