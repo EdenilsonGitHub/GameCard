@@ -33,4 +33,8 @@ public abstract class LifeBase : MonoBehaviour
     public abstract void OnDamage();
     public abstract void OnDie();
 
+    public int GetCurrentLife(){
+        return currentLife;
+    }
+
 }
